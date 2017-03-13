@@ -1,0 +1,8 @@
+service: less-server
+provider:
+  name: aws
+  runtime: nodejs4.3
+
+functions:
+  xkcd:
+    handler: handler.xkcd
